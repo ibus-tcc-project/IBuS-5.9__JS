@@ -1,0 +1,51 @@
+
+/* Set the size of the div element that contains the map */
+a[href^="http://maps.google.com/maps"],
+a[href^="https://maps.google.com/maps"],
+a[href^="https://www.google.com/maps"] {
+    display: none !important;
+}
+.gm-bundled-control .gmnoprint {
+  display: block;
+}
+.gmnoprint:not(.gm-bundled-control) {
+  display: none;
+}
+.gm-svpc {
+  display: none;
+}
+#map {
+  
+    margin-bottom: 0%;
+    height: 100vh; /* The height is 400 pixels */
+    width: 100%; /* The width is the width of the web page */
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+p#test{
+  margin-top:30px;
+}
+#boa{
+  max-width:200px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+  margin-top:  10px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, .5)
+
+}
+
+#ai{
+  position: relative;
+  background: black;
+  color:white; 
+}
+
